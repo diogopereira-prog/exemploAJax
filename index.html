@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="funcoes.js"></script>
+</head>
+
+<body>
+    <div class="mt-4 p-5 bg-primary text-white rounded container">
+        <h1>Exemplo de SPA</h1>
+        <p>SPA com JS puro</p>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <nav class="navbar rounded bg-light">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="carregar(1)">Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="carregar(2)">Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" onclick="carregar(3)">Link 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-8" id="app">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

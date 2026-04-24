@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Ricardo",
+    "sobrenome": "Oliveira",
+    "email": "ricardo.oliveira@provedor.com.br"
+  },
+  {
+    "nome": "Ana",
+    "sobrenome": "Costa",
+    "email": "ana.costa88@gmail.com"
+  },
+  {
+    "nome": "Lucas",
+    "sobrenome": "Pereira",
+    "email": "l.pereira@empresa.com.br"
+  },
+  {
+    "nome": "Mariana",
+    "sobrenome": "Souza",
+    "email": "mari_souza@outlook.com"
+  },
+  {
+    "nome": "Thiago",
+    "sobrenome": "Almeida",
+    "email": "thiago.almeida.dev@gmail.com"
+  },
+  {
+    "nome": "Juliana",
+    "sobrenome": "Santos",
+    "email": "jusantos.vendas@yahoo.com.br"
+  },
+  {
+    "nome": "Felipe",
+    "sobrenome": "Barbosa",
+    "email": "felipe_barbosa@icloud.com"
+  },
+  {
+    "nome": "Beatriz",
+    "sobrenome": "Melo",
+    "email": "beatriz.melo@servico.com"
+  },
+  {
+    "nome": "Gabriel",
+    "sobrenome": "Rodrigues",
+    "email": "gabriel.rodrigues92@gmail.com"
+  },
+  {
+    "nome": "Camila",
+    "sobrenome": "Martins",
+    "email": "camila.martins@startup.io"
+  },
+  {
+    "nome": "Bruno",
+    "sobrenome": "Gomes",
+    "email": "bruno.gomes@tecnologia.com.br"
+  },
+  {
+    "nome": "Larissa",
+    "sobrenome": "Carvalho",
+    "email": "larissa_carvalho@hotmail.com"
+  },
+  {
+    "nome": "André",
+    "sobrenome": "Teixeira",
+    "email": "andre.teixeira@consultoria.com"
+  },
+  {
+    "nome": "Fernanda",
+    "sobrenome": "Ribeiro",
+    "email": "nandinha.ribeiro@gmail.com"
+  },
+  {
+    "nome": "Vinícius",
+    "sobrenome": "Nunes",
+    "email": "vini.nunes@empresa.com.br"
+  },
+  {
+    "nome": "Amanda",
+    "sobrenome": "Ferreira",
+    "email": "amanda.ferreira@educacao.org"
+  },
+  {
+    "nome": "Diego",
+    "sobrenome": "Rocha",
+    "email": "diego.rocha.pro@gmail.com"
+  },
+  {
+    "nome": "Isabela",
+    "sobrenome": "Lopes",
+    "email": "isabela.lopes@portal.com.br"
+  },
+  {
+    "nome": "Rodrigo",
+    "sobrenome": "Cardoso",
+    "email": "rodrigo.cardoso@financeiro.com"
+  },
+  {
+    "nome": "Letícia",
+    "sobrenome": "Mendes",
+    "email": "leticia.mendes@webmail.com"
+  }
+]
