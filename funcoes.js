@@ -1,10 +1,13 @@
-paginas = [{"pagina":"tabela.html","chamada":"carregarPessoas()"},{"pagina":"lista.html","chamada":"null"}];
+paginas = [{"pagina":"tabela.html","chamada":"0"},{"pagina":"lista.html","chamada":"null"}];
+funcoes = [carregarPessoas];
 async function carregar(p){
     var obj = await fetch("views/"+paginas[p-1].pagina);
     var conteudo = await obj.text();
     var app = document.getElementById("app");
     app.innerHTML = conteudo;
-    eval(paginas[p-1].chamada);
+    //eval(paginas[p-1].chamada);
+    f = funcoes[paginas[p-1].chamada];
+    f();
     console.log(paginas[p-1]);
 }
 
@@ -27,6 +30,6 @@ async function carregarPessoas() {
         });
         tabela.innerHTML = texto;
     }
-    xhttp.open("GET", "control/getPessoas.json", true);
+    xhttp.open("GET", "control/getPessoas.php", true);
     xhttp.send();
 }
